@@ -1,0 +1,179 @@
+
+body{
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 980px;
+    margin: auto
+}
+.logo{
+    height: 80px;
+    background: white;
+    text-align: center;
+}
+.menu{
+    height: 35px;
+    background: #272f54;
+}
+.timkiem{
+    width: 70px;
+    height: 20px;
+    background: #db2704;
+    border: 0.5px solid white;
+    color:white;
+}
+form{
+    text-align: right;
+    margin-right: 35px;
+}
+.text{ 
+    width: 150px;
+    height: 20px;
+    border: none;
+    background: white;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 35px;
+    padding-left: 40px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.duongdan {
+    background: white;
+    height: 35px;
+    text-align: left;
+}
+.duongdan a{
+    color: black ;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.duongdan a:hover{
+    text-decoration: underline;
+}
+.content{
+    height: 2100px;
+    background: white;
+}
+.tieude{
+    width: 200px;
+    height: 50px;
+    background: #272f54;
+    color: white;
+    line-height: 50px;
+    padding-left: 20px
+}
+.tieude a{
+    color: white;
+    text-decoration: none;
+}
+.sp1{
+    width: 200px;
+    height: 350px;
+    border: 0.5px solid white;
+    text-align: center;
+    float:left;
+    margin-right: 30px;
+}
+.tensp{ 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.tensp a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.gia{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.box{
+    width: 980px;
+    height: 350px;
+}
+.xemthem{
+    width: 200px;
+    height: 40px;
+    background: #E10615;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 380px;
+    line-height: 5px;
+}
+.box2{
+    width: 980px;
+    height: 350px;
+}
+.footer{
+    width: 980px;
+    color: black;
+}
+.sp2 ul li{
+    list-style: none;
+    line-height: 35px;
+    padding-left: 5px;
+    margin-left: 0px;
+}
+.sp2 ul li a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 0px;
+}
+.sp2{
+    width: 230px;
+    height: 350px;
+    border: 0.5px solid white;
+    float:left;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.box3{
+    width: 980px;
+    height: 30px;
+    background:#272f54; 
+}
+.box3 p{
+    text-align: center;
+    color: white;
+}
+.sp2 p{
+    text-align: left;
+}
+.dangnhap{
+    height: 25px;
+    font-weight: bold;
+    text-align: right;
+}
+.dangnhap a{
+    color: black;
+    text-decoration: none;
+}
+.dangnhap a :hover{
+    text-decoration: underline;
+}
